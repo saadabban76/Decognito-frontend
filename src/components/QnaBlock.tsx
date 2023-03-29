@@ -9,7 +9,7 @@ type QnaBlockProps = {
 const QnaBlock = (props: PropsWithChildren<QnaBlockProps>) => {
   return (
     <div className="flex flex-col space-y-7">
-      <h1 className="text-gray-900 border-b leading-loose border-gray-300 font-semibold text-[1.7rem]">
+      <h1 className="text-gray-900 sm:text-[1.8rem] only:border-b leading-loose border-gray-300 font-semibold text-[1.7rem]">
         {props.heading}
       </h1>
       <p className="">{props.children}</p>

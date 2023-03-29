@@ -5,13 +5,13 @@ import blockimg from "../../public/assets/images/blockImg.png";
 const Documentation = () => {
   return (
     <div className="py-20">
-      <div className="max-w-[700px] space-y-12 mx-auto text-gray-800">
+      <div className="max-w-[800px] text-[1.2rem] sm:text-[1.4rem] break-words space-y-12 mx-auto text-gray-800">
         <div>
-          <h1 className="text-gray-900 border-b leading-loose border-gray-300 font-semibold text-[1.7rem]">
+          <h1 className="text-gray-900 border-b sm:text-[1.8rem] leading-loose border-gray-300 font-semibold text-[1.7rem]">
             An incomplete guide to decognito
           </h1>
           {/* header section */}
-          <div className="pt-12 leading-2 flex flex-col space-y-6">
+          <div className="pt-14 leading-2 flex flex-col space-y-6">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
               saepe impedit provident voluptas quaerat nesciunt explicabo amet
@@ -45,7 +45,7 @@ const Documentation = () => {
           praesentium error doloribus facilis, molestias, tempore commodi ut
           tenetur cumque in nostrum dolor quis fugit beatae.
         </QnaBlock>
-        <QnaBlock heading="Heading One" image={"/assets/images/blockImg.png"}>
+        <QnaBlock heading="Heading Four" image={"/assets/images/blockImg.png"}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aperiam
           impedit adipisci veniam doloribus maxime ipsam. Quos eius doloremque
           accusantium autem, quidem sed veniam commodi distinctio recusandae
